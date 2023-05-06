@@ -1,1 +1,16 @@
-Ẽ
+
+/* Header **/
+header{
+  background-color:yellow;
+  border-style:solid;
+  border-bottom-width: 3px;
+  border-bottom-color: orangered;
+
+}
+
+header a{
+
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+}
