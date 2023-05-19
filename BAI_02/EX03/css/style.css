@@ -1,16 +1,33 @@
-
-/* Header **/
 header{
-  background-color:yellow;
-  border-style:solid;
-  border-bottom-width: 3px;
-  border-bottom-color: orangered;
-
+    background-color:rgb(80, 77, 77);
+    border-style:solid;
+    border-bottom-width: 3px;
+    border-bottom-color: orangered;
+    
 }
-
+header h1{
+    color:white;
+    padding-top:40px;
+}
 header a{
-
-  color:rgb(255, 255, 255);
-  text-decoration: none;
-  text-transform: uppercase;
+    color:rgb(91, 21, 131);
+}
+header ul{
+    padding-bottom:20px;
+    list-style:none;
+}
+header li::before {
+    content: "•"; color: rgb(255, 255, 255);
+    display: inline-block; width: 1em;
+    margin-left: -1em
+}
+footer{
+    background-color: orangered;
+    color:white;
+    text-align: center;
+}
+footer p{
+    padding-top:30px;
+    padding-bottom:30px;
+    
 }
