@@ -1,26 +1,70 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
 
 /* Header **/
 header{
-  background-color:yellow;
+  background-color:rgb(80, 77, 77);
   border-style:solid;
   border-bottom-width: 3px;
   border-bottom-color: orangered;
-
+  padding-top:30px;
+  min-height:70px;
+  padding-bottom: 20px;
 }
 
 header a{
-
   color:rgb(255, 255, 255);
   text-decoration: none;
   text-transform: uppercase;
+
+}
+
+header li{
+  float: left;
+  display: flex;
+  padding: 10px;
+
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  color:white;
+  padding-top:0px;
+}
+
+header nav{
+  float: right;
+  margin-top: 0px;
+}
+
+header .highlight, header .current a{
+  color:orangered;
+
+}
+
+header a:hover{
+  
+  font-weight: bolder;
+
 }
 
 
 footer{
-  background-color: orangered;
-  color:white;
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
   text-align: center;
-  padding-top:25px;
-  padding-bottom:25px;
 
 }
+
+#newsletter form input[type="email"], .quote input, .quote textarea{
+  width:100%;
+  margin-bottom: 10px;
+  }
